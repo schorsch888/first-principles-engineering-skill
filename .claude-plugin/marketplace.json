@@ -1,13 +1,13 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "first-principles-engineering-skill",
+  "name": "fpe",
   "description": "First-principles engineering analysis for Claude Code.",
   "owner": {
     "name": "schorsch888"
   },
   "plugins": [
     {
-      "name": "first-principles-engineering-skill",
+      "name": "first-principles",
       "source": "./",
       "description": "Derive engineering decisions from evidence, constraints, invariants, and acceptance evidence.",
       "category": "productivity"

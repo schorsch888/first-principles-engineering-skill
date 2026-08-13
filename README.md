@@ -8,19 +8,19 @@ The repository contains one shared `SKILL.md` and native plugin metadata for bot
 
 ```text
 /plugin marketplace add schorsch888/first-principles-engineering-skill
-/plugin install first-principles-engineering-skill@first-principles-engineering-skill
+/plugin install first-principles@fpe
 ```
 
-Invoke it with `/first-principles-engineering-skill:first-principles-engineering` or let Claude load it when the request matches its description.
+Invoke it with `/first-principles:engineering` or let Claude load it when the request matches its description.
 
 ## Codex
 
 ```sh
 codex plugin marketplace add schorsch888/first-principles-engineering-skill
-codex plugin add first-principles-engineering-skill@first-principles-engineering-skill
+codex plugin add first-principles@fpe
 ```
 
-Invoke the installed skill explicitly or ask Codex for first-principles analysis.
+Invoke it with `$first-principles:engineering` or ask Codex for first-principles analysis.
 
 ## Development validation
 

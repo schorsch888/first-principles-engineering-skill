@@ -1,6 +1,6 @@
 {
-  "name": "first-principles-engineering-skill",
-  "version": "0.1.0",
+  "name": "first-principles",
+  "version": "0.2.0",
   "description": "Derive the smallest defensible engineering decision from current evidence, hard constraints, state transitions, and acceptance evidence.",
   "author": {
     "name": "schorsch888",
@@ -27,7 +27,7 @@
     ],
     "websiteURL": "https://github.com/schorsch888/first-principles-engineering-skill",
     "defaultPrompt": [
-      "Use $first-principles-engineering to derive the smallest defensible change from current evidence and hard constraints."
+      "Use $engineering to derive the smallest defensible change from current evidence and hard constraints."
     ]
   }
 }

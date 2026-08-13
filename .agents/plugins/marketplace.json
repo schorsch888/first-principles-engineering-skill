@@ -1,11 +1,11 @@
 {
-  "name": "first-principles-engineering-skill",
+  "name": "fpe",
   "interface": {
     "displayName": "First-Principles Engineering"
   },
   "plugins": [
     {
-      "name": "first-principles-engineering-skill",
+      "name": "first-principles",
       "source": {
         "source": "url",
         "url": "https://github.com/schorsch888/first-principles-engineering-skill.git",

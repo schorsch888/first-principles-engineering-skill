@@ -1,4 +1,0 @@
-interface:
-  display_name: "First-Principles Engineering"
-  short_description: "Derive engineering decisions from facts and constraints"
-  default_prompt: "Use $first-principles-engineering to reframe this engineering problem from facts, constraints, state transitions, and acceptance evidence."
