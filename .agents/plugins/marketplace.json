@@ -1,0 +1,21 @@
+{
+  "name": "first-principles-engineering-skill",
+  "interface": {
+    "displayName": "First-Principles Engineering"
+  },
+  "plugins": [
+    {
+      "name": "first-principles-engineering-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/schorsch888/first-principles-engineering-skill.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

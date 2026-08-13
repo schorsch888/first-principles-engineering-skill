@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "first-principles-engineering-skill",
+  "displayName": "First-Principles Engineering",
+  "version": "0.1.0",
+  "description": "Derive the smallest defensible engineering decision from current evidence, hard constraints, state transitions, and acceptance evidence.",
+  "author": {
+    "name": "schorsch888",
+    "url": "https://github.com/schorsch888"
+  },
+  "homepage": "https://github.com/schorsch888/first-principles-engineering-skill#readme",
+  "repository": "https://github.com/schorsch888/first-principles-engineering-skill",
+  "keywords": [
+    "first-principles",
+    "engineering",
+    "requirements",
+    "architecture",
+    "root-cause"
+  ],
+  "skills": "./skills/"
+}
