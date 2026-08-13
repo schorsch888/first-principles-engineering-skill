@@ -1,8 +1,11 @@
 # First-Principles Engineering
 
-An evidence-led engineering skill for reframing requirements, architecture decisions, bugs, and remediation plans before implementation.
+Evidence-led engineering skills for framing decisions and hardening repositories.
 
-The repository contains one shared `SKILL.md` and native plugin metadata for both Claude Code and Codex.
+The repository contains two shared skills and native plugin metadata for both Claude Code and Codex:
+
+- `engineering`: derive the smallest defensible change from facts and constraints.
+- `repo-hardening`: review and remediate repositories with early executable validation.
 
 ## Claude Code
 
@@ -11,7 +14,7 @@ The repository contains one shared `SKILL.md` and native plugin metadata for bot
 /plugin install first-principles@fpe
 ```
 
-Invoke it with `/first-principles:engineering` or let Claude load it when the request matches its description.
+Invoke `/first-principles:engineering` or `/first-principles:repo-hardening`, or let Claude load the relevant skill automatically.
 
 ## Codex
 
@@ -20,7 +23,7 @@ codex plugin marketplace add schorsch888/first-principles-engineering-skill
 codex plugin add first-principles@fpe
 ```
 
-Invoke it with `$first-principles:engineering` or ask Codex for first-principles analysis.
+Invoke `$first-principles:engineering` or `$first-principles:repo-hardening`, or ask Codex for the matching workflow.
 
 ## Development validation
 

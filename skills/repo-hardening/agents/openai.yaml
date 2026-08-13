@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Hardening"
+  short_description: "Validate and harden repositories from real evidence"
+  default_prompt: "Use $repo-hardening to review this repository with early validation and implement only evidence-backed fixes."

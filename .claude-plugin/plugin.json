@@ -2,8 +2,8 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "first-principles",
   "displayName": "First-Principles Engineering",
-  "version": "0.2.0",
-  "description": "Derive the smallest defensible engineering decision from current evidence, hard constraints, state transitions, and acceptance evidence.",
+  "version": "0.3.0",
+  "description": "Derive defensible engineering decisions and harden repositories through early executable validation.",
   "author": {
     "name": "schorsch888",
     "url": "https://github.com/schorsch888"
@@ -15,7 +15,9 @@
     "engineering",
     "requirements",
     "architecture",
-    "root-cause"
+    "root-cause",
+    "repository",
+    "validation"
   ],
   "skills": "./skills/"
 }

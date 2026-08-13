@@ -41,7 +41,7 @@ Derive the decision from observable current state and the intended outcome. Trea
 6. Validate the derivation.
    - Tie each material conclusion to evidence.
    - Map each proposed change to an acceptance check.
-   - Run relevant checks when implementation is requested. For repository-wide review or remediation, use `validation-first-repo-hardening` after framing the problem when that skill is available.
+   - Run relevant checks when implementation is requested. For repository-wide review or remediation, use `repo-hardening` after framing the problem when that skill is available.
 
 ## Output
 
