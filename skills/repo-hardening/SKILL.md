@@ -1,6 +1,6 @@
 ---
 name: repo-hardening
-description: Review and harden repositories by running real build and test gates early, auditing contracts across component boundaries, turning validated findings into scoped fixes, and leaving repeatable validation evidence. Use when the user asks to review a repo or project, review这个项目, harden it to a stronger engineering standard, 按照大厂标准进行修复, diagnose integration, runtime, or schema drift, or continue a review into implementation.
+description: Review and harden repositories by running real build and test gates early, auditing contracts across component boundaries, turning validated findings into scoped fixes, and leaving repeatable validation evidence. Use when the user asks to review a repo or project, review这个项目, harden it to a stronger engineering standard, 按照 FAANG 标准进行修复, diagnose integration, runtime, or schema drift, or continue a review into implementation.
 ---
 
 # Repository Hardening

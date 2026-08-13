@@ -1,6 +1,6 @@
 {
   "name": "first-principles",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Derive defensible engineering decisions and harden repositories through early executable validation.",
   "author": {
     "name": "schorsch888",
