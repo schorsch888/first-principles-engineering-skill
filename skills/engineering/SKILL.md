@@ -1,6 +1,6 @@
 ---
 name: engineering
-description: Reframe engineering requirements, issues, architecture decisions, bugs, and remediation plans from current evidence, desired outcomes, hard constraints, invariants, ownership, state transitions, and acceptance evidence. Use when the user asks for “第一性原理” or “first-principles” analysis, asks whether issues overlap or duplicate each other, wants to identify the root problem, challenge inherited scope or assumptions, rewrite an issue/spec around current truth, or derive the smallest defensible solution before implementation.
+description: Reframe engineering requirements, issues, architecture decisions, bugs, and remediation plans from current evidence, desired outcomes, hard constraints, invariants, ownership, state transitions, and acceptance evidence. Use when the user asks for “第一性原理” or “first-principles” analysis, asks whether issues overlap or duplicate each other, wants to identify the root problem, challenge inherited scope or assumptions, rewrite an issue/spec around current truth, derive the smallest defensible solution before implementation, or hold an engineering decision to a FAANG standard or FAANG 标准.
 ---
 
 # First-Principles Engineering
@@ -8,6 +8,17 @@ description: Reframe engineering requirements, issues, architecture decisions, b
 ## Core Rule
 
 Derive the decision from observable current state and the intended outcome. Treat existing titles, issue structure, documentation, implementations, and historical plans as evidence—not axioms.
+
+## FAANG-Grade Decision Bar
+
+Interpret “FAANG standard” as an auditable, production-grade quality bar, not a universal company process. Require all applicable conditions and mark non-applicable ones with a reason:
+
+- Base current truth on authoritative, fresh evidence; expose unknowns and confidence.
+- Give the outcome an accountable owner, a clear system boundary, and measurable acceptance evidence.
+- Make relevant correctness, security, privacy, reliability, data-integrity, accessibility, compatibility, performance, and cost invariants explicit.
+- Compare viable alternatives and trade-offs; minimize complexity, blast radius, and irreversible commitments.
+- Cover dependencies, migration, rollout, rollback, and observability for production-affecting decisions.
+- Map every material decision to a test, check, metric, or review. Do not report completion while a critical assumption remains unresolved.
 
 ## Workflow
 

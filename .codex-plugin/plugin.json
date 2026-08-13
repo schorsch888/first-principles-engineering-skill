@@ -1,7 +1,7 @@
 {
   "name": "first-principles",
-  "version": "0.3.1",
-  "description": "Derive defensible engineering decisions and harden repositories through early executable validation.",
+  "version": "0.4.0",
+  "description": "Derive auditable engineering decisions and harden repositories against production-grade quality bars.",
   "author": {
     "name": "schorsch888",
     "url": "https://github.com/schorsch888"
@@ -21,7 +21,7 @@
   "interface": {
     "displayName": "First-Principles Engineering",
     "shortDescription": "Evidence-led decisions and repository hardening",
-    "longDescription": "Reframe engineering problems from current evidence and hard constraints, then review or harden repositories with early executable validation, contract audits, scoped fixes, and observable acceptance evidence.",
+    "longDescription": "Reframe engineering problems from current evidence and hard constraints, then review or harden repositories against applicable production-grade quality bars with executable validation, contract audits, scoped fixes, and observable acceptance evidence.",
     "developerName": "schorsch888",
     "category": "Productivity",
     "capabilities": [

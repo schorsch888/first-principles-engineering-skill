@@ -2,8 +2,8 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "first-principles",
   "displayName": "First-Principles Engineering",
-  "version": "0.3.1",
-  "description": "Derive defensible engineering decisions and harden repositories through early executable validation.",
+  "version": "0.4.0",
+  "description": "Derive auditable engineering decisions and harden repositories against production-grade quality bars.",
   "author": {
     "name": "schorsch888",
     "url": "https://github.com/schorsch888"

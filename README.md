@@ -2,10 +2,12 @@
 
 Evidence-led engineering skills for framing decisions and hardening repositories.
 
+“FAANG-grade” means an auditable, production-grade quality bar across the dimensions that apply—not a universal company checklist or extra ceremony.
+
 The repository contains two shared skills and native plugin metadata for both Claude Code and Codex:
 
-- `engineering`: derive the smallest defensible change from facts and constraints.
-- `repo-hardening`: review and remediate repositories with early executable validation.
+- `engineering`: derive the smallest defensible decision and verify its production implications.
+- `repo-hardening`: review and remediate repositories against evidence-backed readiness dimensions.
 
 ## Claude Code
 

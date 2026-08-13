@@ -1,6 +1,6 @@
 ---
 name: repo-hardening
-description: Review and harden repositories by running real build and test gates early, auditing contracts across component boundaries, turning validated findings into scoped fixes, and leaving repeatable validation evidence. Use when the user asks to review a repo or project, review这个项目, harden it to a stronger engineering standard, 按照 FAANG 标准进行修复, diagnose integration, runtime, or schema drift, or continue a review into implementation.
+description: Review and harden repositories by running real build and test gates early, auditing contracts across component boundaries, turning validated findings into scoped fixes, and leaving repeatable validation evidence. Use when the user asks to review a repo or project, review这个项目, harden it to a stronger engineering standard, apply a FAANG standard or FAANG 标准, diagnose integration, runtime, or schema drift, or continue a review into implementation.
 ---
 
 # Repository Hardening
@@ -8,6 +8,19 @@ description: Review and harden repositories by running real build and test gates
 ## Core Rule
 
 Ground conclusions in executable evidence. Run the smallest high-signal validation early, then let failures and system boundaries guide code inspection.
+
+## FAANG-Grade Repository Bar
+
+Interpret “FAANG standard” as evidence-backed production readiness, not checklist theater. Evaluate each applicable dimension and mark non-applicable ones with a reason:
+
+- **Correctness and contracts:** reproducible build, lint, type, test, schema, migration, and integration evidence appropriate to the change.
+- **Change safety:** bounded scope and explicit compatibility, dependency, data-migration, rollout, rollback, and blast-radius handling.
+- **Security and privacy:** trust boundaries, authentication, authorization, secrets, dependency risk, input handling, and sensitive-data lifecycle.
+- **Reliability and operability:** evidenced failure modes, resource bounds, concurrency behavior, health signals, logs, metrics, alerts, and recovery paths where relevant.
+- **Maintainability and ownership:** clear owners, minimal accidental complexity, current contracts and runbooks, and focused checks at the defect boundary.
+- **Delivery evidence:** exact commands and results, enforced CI/review gates, and explicit residual risks. Treat blocked or unrun checks as unknown.
+
+Do not claim the repository clears this bar while an applicable critical or high-risk dimension lacks evidence.
 
 ## Workflow
 
