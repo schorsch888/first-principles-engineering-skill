@@ -1,0 +1,4 @@
+interface:
+  display_name: "Propose Change"
+  short_description: "Publish auditable GitHub PRs and GitLab MRs"
+  default_prompt: "Use $propose-change to prepare and publish this change for review with the correct target, labels, validation evidence, and cleanup policy."

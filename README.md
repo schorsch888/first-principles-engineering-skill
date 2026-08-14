@@ -1,13 +1,14 @@
 # First-Principles Engineering
 
-Evidence-led engineering skills for framing decisions and hardening repositories.
+Evidence-led engineering skills from decision framing through repository hardening and review.
 
 “FAANG-grade” means an auditable, production-grade quality bar across the dimensions that apply—not a universal company checklist or extra ceremony.
 
-The repository contains two shared skills and native plugin metadata for both Claude Code and Codex:
+The repository contains three shared skills and native plugin metadata for both Claude Code and Codex:
 
 - `engineering`: derive the smallest defensible decision and verify its production implications.
 - `repo-hardening`: review and remediate repositories against evidence-backed readiness dimensions.
+- `propose-change`: publish an auditable GitHub pull request or GitLab merge request without taking over CI or merge decisions.
 
 ## Claude Code
 
@@ -16,7 +17,7 @@ The repository contains two shared skills and native plugin metadata for both Cl
 /plugin install first-principles@fpe
 ```
 
-Invoke `/first-principles:engineering` or `/first-principles:repo-hardening`, or let Claude load the relevant skill automatically.
+Invoke `/first-principles:engineering`, `/first-principles:repo-hardening`, or `/first-principles:propose-change`, or let Claude load the relevant skill automatically.
 
 ## Codex
 
@@ -25,7 +26,7 @@ codex plugin marketplace add schorsch888/first-principles-engineering-skill
 codex plugin add first-principles@fpe
 ```
 
-Invoke `$first-principles:engineering` or `$first-principles:repo-hardening`, or ask Codex for the matching workflow.
+Invoke `$first-principles:engineering`, `$first-principles:repo-hardening`, or `$first-principles:propose-change`, or ask Codex for the matching workflow.
 
 ## Development validation
 

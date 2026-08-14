@@ -51,7 +51,7 @@ Do not claim the repository clears this bar while an applicable critical or high
 
 6. Hand off cleanly.
    - Report changed files, exact validation commands, results, and remaining blockers.
-   - Use the repository's existing delivery workflow when publication is requested. Delegate to a compatible submission skill when one is available; keep forge-specific delivery policy out of this skill.
+   - Use the repository's existing delivery workflow when publication is requested. Delegate to `propose-change` when it is available; keep forge-specific delivery policy out of this skill.
 
 ## Review Output
 
