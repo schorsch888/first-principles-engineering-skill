@@ -1,6 +1,6 @@
 {
   "name": "first-principles",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Derive auditable engineering decisions, harden repositories, and propose changes for review.",
   "author": {
     "name": "schorsch888",
@@ -31,7 +31,7 @@
     ],
     "websiteURL": "https://github.com/schorsch888/first-principles-engineering-skill",
     "defaultPrompt": [
-      "Use $engineering to derive the smallest defensible change from current evidence and hard constraints.",
+      "Use $first-principles-engineering to derive the smallest defensible change from current evidence and hard constraints.",
       "Use $repo-hardening to review this repository with early validation and evidence-backed fixes.",
       "Use $propose-change to publish this change as an auditable GitHub pull request or GitLab merge request."
     ]

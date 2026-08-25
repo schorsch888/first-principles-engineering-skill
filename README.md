@@ -6,7 +6,7 @@ Evidence-led engineering skills from decision framing through repository hardeni
 
 The repository contains three shared skills and native plugin metadata for both Claude Code and Codex:
 
-- `engineering`: derive the smallest defensible decision and verify its production implications.
+- `first-principles-engineering`: derive the smallest defensible decision and verify its production implications.
 - `repo-hardening`: review and remediate repositories against evidence-backed readiness dimensions.
 - `propose-change`: publish an auditable GitHub pull request or GitLab merge request without taking over CI or merge decisions.
 
@@ -17,7 +17,7 @@ The repository contains three shared skills and native plugin metadata for both 
 /plugin install first-principles@fpe
 ```
 
-Invoke `/first-principles:engineering`, `/first-principles:repo-hardening`, or `/first-principles:propose-change`, or let Claude load the relevant skill automatically.
+Invoke `/first-principles:first-principles-engineering`, `/first-principles:repo-hardening`, or `/first-principles:propose-change`, or let Claude load the relevant skill automatically.
 
 ## Codex
 
@@ -26,7 +26,7 @@ codex plugin marketplace add schorsch888/first-principles-engineering-skill
 codex plugin add first-principles@fpe
 ```
 
-Invoke `$first-principles:engineering`, `$first-principles:repo-hardening`, or `$first-principles:propose-change`, or ask Codex for the matching workflow.
+Invoke `$first-principles:first-principles-engineering`, `$first-principles:repo-hardening`, or `$first-principles:propose-change`, or ask Codex for the matching workflow.
 
 ## Development validation
 

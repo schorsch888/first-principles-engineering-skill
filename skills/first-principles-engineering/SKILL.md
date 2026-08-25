@@ -1,5 +1,5 @@
 ---
-name: engineering
+name: first-principles-engineering
 description: Reframe engineering requirements, issues, architecture decisions, bugs, and remediation plans from current evidence, desired outcomes, hard constraints, invariants, ownership, state transitions, and acceptance evidence. Use when the user asks for “第一性原理” or “first-principles” analysis, asks whether issues overlap or duplicate each other, wants to identify the root problem, challenge inherited scope or assumptions, rewrite an issue/spec around current truth, derive the smallest defensible solution before implementation, or hold an engineering decision to a FAANG standard or FAANG 标准.
 ---
 

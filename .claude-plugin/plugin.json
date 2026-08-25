@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "first-principles",
   "displayName": "First-Principles Engineering",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Derive auditable engineering decisions, harden repositories, and propose changes for review.",
   "author": {
     "name": "schorsch888",
